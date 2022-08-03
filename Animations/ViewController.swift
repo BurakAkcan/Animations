@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 1,
                        delay:0 ,
                        usingSpringWithDamping: 0.2,
-                       initialSpringVelocity: 0,
+                       initialSpringVelocity: 0 ,
                        options: [.curveEaseInOut]) { [weak self] in
             if show {
                 self?.hideAlert()
